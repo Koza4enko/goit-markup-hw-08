@@ -6,11 +6,19 @@
     --accent-color: #2196F3;
     --title-hero-color: #FFFFFF;
     --text-abut-list-color: #757575;
+    --background-hero-color: #2F303A;
+    --backround-teem-color: #F5F4FA;
 }
 
 body {
     font-family: "open sans", sans-serif;
+    width: 1600px;
+    height: 2346px;
+    background-color: var(----title-hero-color);
+    
 }
+
+
 
 /* Логотип  */
 
@@ -18,9 +26,15 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: var(--accent-color);
+    color: var(--title-text-color);
     font-family: raleway;
+    text-decoration: none;
     
+}
+
+
+.web {
+    color: var(--accent-color);
 }
 
 .logo:hover {
@@ -35,29 +49,51 @@ body {
 /* site-nav */
 
 .site-nav .link-current {
-color: var(--accent-color)
+color: var(--accent-color);
+text-decoration: none;
+}
+
+.nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-tex-color);
+    text-decoration: none;
 }
 
 
 /* auth-nav */
 
 .auth-nav .link-current {
-color: var(--accent-color)
+color: var(--accent-color);
+text-decoration: none;
 }
 
 /* section */
 
 .section-title {
     color: var(--title-text-color);
+    
+    
+}
+
+.section-teem {
+    background-color: var(--backround-teem-color);
 }
 
 /* hero */
+.hero {
+    background-color: var(--background-hero-color);
+    
+}
 .hero-title {
     color: var(--title-hero-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
+    
 
 }
 
@@ -72,11 +108,11 @@ color: var(--accent-color)
 .button {
     color: var(--title-hero-color);
     background-color: var(--accent-color);
+   
     width: 216px;
     height: 50px;
     left: 692px;
-    top: 439px;
-    text-align: center;
+    top: 430px;
 }
 
 /* titli */
@@ -91,14 +127,18 @@ color: var(--accent-color)
 
 /* text about-list */
 
-.aboud-list .text {
+
+.text {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--text-abut-list-color);
+    text-decoration: none;
 }
 
 
 
 /* стилі для portolio.html */
+
+

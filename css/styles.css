@@ -1,0 +1,78 @@
+
+/* Стилі для index.html */
+:root {
+    --primary-tex-color: #212121;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --title-hero-color: #FFFFFF;
+}
+
+body {
+    font-family: "open sans", sans-serif;
+}
+
+/* Логотип  */
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.logo:hover {
+    color: var(--title-text-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link-current {
+color: var(--accent-color)
+}
+
+
+/* auth-nav */
+
+.auth-nav .link-current {
+color: var(--accent-color)
+}
+
+/* section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* hero */
+.hero-title {
+    color: var(--title-hero-color)
+}
+
+/* переваги */
+.aboud-list .title {
+    color: var(--title-text-color);
+}
+
+
+/* button */
+
+.button {
+    color: var(--title-hero-color);
+    background-color: var(--accent-color);
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 439px;
+    
+}
+
+
+
+
+/* стилі для portolio.html */

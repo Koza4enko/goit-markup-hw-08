@@ -11,9 +11,7 @@
 }
 
 body {
-    font-family: "open sans", sans-serif;
-    width: 1600px;
-    height: 2346px;
+    font-family: "roboto", sans-serif;
     background-color: var(----title-hero-color);
     
 }
@@ -56,14 +54,14 @@ body {
 /* site-nav */
 
 .site-nav .link-current {
-color: var(--accent-color);
-text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 .nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.02em;
     color: var(--primary-tex-color);
     text-decoration: none;
@@ -73,8 +71,8 @@ text-decoration: none;
 /* auth-nav */
 
 .auth-nav .link-current {
-color: var(--accent-color);
-text-decoration: none;
+    color: var(--accent-color);
+    text-decoration: none;
 }
 
 /* section */
@@ -99,7 +97,7 @@ text-decoration: none;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    
+    letter-spacing: 0.06em;
     
 
 }
@@ -115,7 +113,6 @@ text-decoration: none;
 .button {
     color: var(--title-hero-color);
     background-color: var(--accent-color);
-   
     width: 216px;
     height: 50px;
     left: 692px;
@@ -127,7 +124,7 @@ text-decoration: none;
 .title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.15;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -149,7 +146,7 @@ text-decoration: none;
 /* стилі для portolio.html */
 
 body {
-    font-family: "open sans", sans-serif;
+    font-family: "roboto", sans-serif;
     width: 1600px;
     height: 2346px;
     background-color: var(----title-hero-color);
@@ -160,14 +157,14 @@ body {
 
 .button-all {
 
-cursor: pointer;
-width: 73px;
-height: 38px;
-left: 512px;
-top: 174px;
-border-radius: 4px;
-color: var(--title-hero-color);
-background-color: var(--accent-color);
+    cursor: pointer;
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+    border-radius: 4px;
+    color: var(--title-hero-color);
+    background-color: var(--accent-color);
 }
 
 .button-web-link {
@@ -178,7 +175,7 @@ background-color: var(--accent-color);
     top: 174px;
     border-radius: 4px;
     color: var(--background-hero-color);
-    background-color: #F5F4FA;
+    background-color: var(----title-hero-color);
 }
 
 .button-addition {
@@ -189,7 +186,7 @@ background-color: var(--accent-color);
     top: 174px;
     border-radius: 4px;
     color: var(--background-hero-color);
-    background-color: #F5F4FA;
+    background-color: var(----title-hero-color);
 }
 
 .button-styling {
@@ -200,7 +197,7 @@ background-color: var(--accent-color);
     top: 174px;
     border-radius: 4px;
     color: var(--background-hero-color);
-    background-color: #F5F4FA;
+    background-color: var(----title-hero-color);
 }
 
 .button-marketing {
@@ -211,11 +208,54 @@ background-color: var(--accent-color);
     top: 174px;
     border-radius: 4px;
     color: var(--background-hero-color);
-    background-color: #F5F4FA;
+    background-color: var(----title-hero-color);
     
 }
 
-/*  */
+/* navigation */
+
+.title-navigation {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color)
+}
+
+.text-navigation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--text-abut-list-color)
+}
+
+/* footer */
+
+.footer-block {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background-color: var(--background-hero-color);
+}
+
+.link-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.work-office {
+    font-style: normal;
+    color: var(--title-hero-color)
+}
+
+.remove-italics {
+    font-style: normal;
+}
 
 
 

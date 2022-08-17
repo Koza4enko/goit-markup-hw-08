@@ -18,6 +18,13 @@ body {
     
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
 
 
 /* Логотип  */
@@ -153,6 +160,7 @@ body {
 
 .button-all {
 
+cursor: pointer;
 width: 73px;
 height: 38px;
 left: 512px;
@@ -163,6 +171,7 @@ background-color: var(--accent-color);
 }
 
 .button-web-link {
+    cursor: pointer;
     width: 125px;
     height: 38px;
     left: 593px;
@@ -173,6 +182,7 @@ background-color: var(--accent-color);
 }
 
 .button-addition {
+    cursor: pointer;
     width: 112px;
     height: 38px;
     left: 726px;
@@ -183,6 +193,7 @@ background-color: var(--accent-color);
 }
 
 .button-styling {
+    cursor: pointer;
     width: 103px;
     height: 38px;
     left: 846px;
@@ -193,6 +204,7 @@ background-color: var(--accent-color);
 }
 
 .button-marketing {
+    cursor: pointer;
     width: 130px;
     height: 38px;
     left: 957px;
@@ -202,6 +214,8 @@ background-color: var(--accent-color);
     background-color: #F5F4FA;
     
 }
+
+/*  */
 
 
 

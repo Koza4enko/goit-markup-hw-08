@@ -1,133 +1,203 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-</head>
-
-<body>
-    <header class="hader-navigation">
+  <body>
+    <div class="wrapper">
+      <header class="hader-navigation">
         <div class="container-nav all">
-            <div class="father-all">
-                <nav>
-                    <a href="" class="logo"> <span class="web">Web</span>Studio </a>
-                    <ul class="site-nav list">
-                <li class="sate-nav-item"><a href="./index.html" class="nav">Студія</a></li>
-                <li class="sate-nav-item"><a href="./portfolio.html" class="link-current">Портфоліо</a></li>
-                <li class="sate-nav-item"><a class="nav" href="">Контакти</a></li>
-                </ul>
-                </nav>
-            </div>
-            <div class="father-all">
-                    <ul class="auth-nav list">
-                        <li class="auth-nav-item"><a href="malitko:info@devstudio.com" class="link-current">info@devstudio.com</a></li>
-                        <li class="auth-nav-item"><a class="text nav-aut" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                    </ul>
-            </div>
+          <div class="father-all">
+            <nav>
+              <a href="" class="logo web">
+                <img src="./image/images/WebStudio-min.png" alt="WebStudio" />
+              </a>
+              <ul class="site-nav list">
+                <li class="sate-nav-item">
+                  <a href="./index.html" class="nav">Студія</a>
+                </li>
+                <li class="sate-nav-item">
+                  <a href="./portfolio.html" class="link-current">Портфоліо</a>
+                </li>
+                <li class="sate-nav-item">
+                  <a class="nav" href="">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="father-all">
+            <ul class="auth-nav list">
+              <li class="auth-nav-item">
+                <a href="malitko:info@devstudio.com" class="link-current"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="auth-nav-item">
+                <a class="text nav-aut" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <main>
-        <div class="container"> 
-            <div class="font-button"> 
-                <button type="button" class="button-all">Усі</button>
-                <button type="button" class="button-web-link">Веб-сайти</button>
-                <button type="button" class="button-addition">Додатки</button>
-                <button type="button" class="button-styling">Дизайн</button>
-                <button type="button" class="button-marketing">Маркетинг</button>
-            </div>
-        <div class="flex-container">
-            <ul class="whot">
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-1.jpg" alt="notebook" width="370" height="294"/>
+      </header>
+      <main class="main-navigation">
+        <div class="container">
+          <div class="font-button">
+            <button type="button" class="button-all">Усі</button>
+            <button type="button" class="button-web-link">Веб-сайти</button>
+            <button type="button" class="button-addition">Додатки</button>
+            <button type="button" class="button-styling">Дизайн</button>
+            <button type="button" class="button-marketing">Маркетинг</button>
+          </div>
+          <div>
+            <ul class="cells">
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-1.jpg"
+                  alt="notebook"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Технокряк</h2>
                 <p class="text-navigation">Веб-сайт</p>
-                
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-2.jpg" alt="colors" width="370" height="294"/>
-                <h2 class="title-navigation">Постер New Orlean vs Golden Star</h2>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-2.jpg"
+                  alt="colors"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-navigation">
+                  Постер New Orlean vs Golden Star
+                </h2>
                 <p class="text-navigation">Дизайн</p>
-                
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-3.jpg" alt="logo-fish" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-3.jpg"
+                  alt="logo-fish"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Ресторан Seafood</h2>
                 <p class="text-navigation">Додаток</p>
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-4.jpg" alt="headphones" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-4.jpg"
+                  alt="headphones"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Проєкт Prime</h2>
                 <p class="text-navigation">Маркетинг</p>
-                
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-5.jpg" alt="boxes" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-5.jpg"
+                  alt="boxes"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Проєкт Boxes</h2>
                 <p class="text-navigation">Додаток</p>
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-6.jpg" alt="screen" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-6.jpg"
+                  alt="screen"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Inspiration has no Borders</h2>
                 <p class="text-navigation">Веб-сайт</p>
-                
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-7.jpg" alt="book" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-7.jpg"
+                  alt="book"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Видання Limited Edition</h2>
                 <p class="text-navigation">Дизайн</p>
-                
-            </li>
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-8.jpg" alt="tag" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-8.jpg"
+                  alt="tag"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Проєкт LAB</h2>
                 <p class="text-navigation">Маркетинг</p>
-                
-            </li>
-                
-                
-            <li class="flex-element">
-                <img src="./image/images/image.portolio/3-9.jpg" alt="working" width="370" height="294"/>
+              </li>
+
+              <li class="flex-element">
+                <img
+                  src="./image/images/image.portolio/3-9.jpg"
+                  alt="working"
+                  width="370"
+                  height="294"
+                />
                 <h2 class="title-navigation">Growing Business</h2>
                 <p class="text-navigation">Додаток</p>
-                
-            </li>
-                
-            
+              </li>
             </ul>
+          </div>
         </div>
-        </div>
-    </main>
-<!-- Підвал сторінки -->
-    <footer class="footer-block">
+      </main>
+      <!-- Підвал сторінки -->
+      <footer class="footer-block">
         <div class="container">
-        <a href="list" class="logo"> <span class="web">Web</span>Studio </a>
-        <address class="work-office" class="remove-italics">м. Київ, пр-т Лесі Українки, 26 
-        <ul class="list">
-            <li class="link-footer"><a class="text" href="malitko:info@devstudio.com" class="link-current">info@devstudio.com</a></li>
-            <li class="link-footer"><a class="text" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-        </address>
+          <a href="list" class="logo" class="web">
+            <img src="./image/images/WebStudio-minfooter.png" alt="WebStudio"
+          /></a>
+          <address class="work-office remove-italics">
+            м. Київ, пр-т Лесі Українки, 26
+            <ul class="list">
+              <li class="link-footer">
+                <a
+                  class="text"
+                  href="malitko:info@devstudio.com"
+                  class="link-current"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="link-footer">
+                <a class="text" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </address>
         </div>
-    </footer>
-
-</body>
+      </footer>
+    </div>
+  </body>
 </html>

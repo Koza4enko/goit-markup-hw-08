@@ -68,10 +68,6 @@ html {
   letter-spacing: 0.03em;
 }
 
-.web {
-  color: var(--accent-color);
-}
-
 .logo:hover {
   color: var(--title-text-color);
 }
@@ -123,6 +119,14 @@ p {
   display: flex;
 }
 
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: var(--title-hero-color);
+}
+
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -148,6 +152,7 @@ p {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+
 .site-nav .nav {
   display: block;
   padding-top: 32px;
@@ -196,6 +201,27 @@ p {
   padding-bottom: 32px;
 }
 
+.auth-nav-item {
+  display: block;
+}
+
+/* .auth-nav-item::before {
+  display: block;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 16px;
+  height: 12px;
+  left: 65.75%;
+  right: 33.25%;
+  top: 1.16%;
+  bottom: 98.43%;
+}
+
+.mail-top::before {
+  background-image: url("../image/envelope\ \(hover\)\ \(1\).svg");
+} */
+
 /* section */
 
 .section-title {
@@ -218,9 +244,9 @@ p {
   margin-bottom: 30px;
   font-weight: 900;
   text-align: center;
-  font-size: 44px;
   line-height: 1.5;
   min-width: 696px;
+  min-height: 120px;
 }
 
 .hero-title-button {
@@ -247,6 +273,7 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 
 .text-about {
@@ -262,6 +289,33 @@ p {
 /* переваги */
 .aboud-list .title {
   color: var(--title-text-color);
+}
+
+.about-blok::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px 25px 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--backround-teem-color);
+}
+
+.detail::before {
+  background-image: url("../image/about-list/antenna.svg");
+}
+
+.punctuality::before {
+  background-image: url("../image/about-list/clock.svg");
+}
+
+.planning::before {
+  background-image: url("../image/about-list/diagram.svg");
+}
+
+.technology::before {
+  background-image: url("../image/about-list/astronaut.svg");
 }
 
 /* section */
@@ -382,13 +436,6 @@ p {
 
 /* стилі для portolio.html */
 
-body {
-  font-family: "roboto", sans-serif;
-  width: 1600px;
-  height: 2346px;
-  background-color: var(----title-hero-color);
-}
-
 /* button */
 
 .font-button {
@@ -403,6 +450,33 @@ body {
   margin: 0 auto 0 auto;
   border: 1px solid transparent;
   margin-bottom: 50px;
+  color: var(--title-hero-color);
+  cursor: pointer;
+}
+
+.font-button > .button-all:hover {
+  color: var(--title-hero-color);
+  background-color: var(--accent-color);
+}
+
+.font-button > .button-web-link:hover {
+  color: var(--title-hero-color);
+  background-color: var(--accent-color);
+}
+
+.font-button > .button-addition:hover {
+  color: var(--title-hero-color);
+  background-color: var(--accent-color);
+}
+
+.font-button > .button-styling:hover {
+  color: var(--title-hero-color);
+  background-color: var(--accent-color);
+}
+
+.font-button > .button-marketing:hover {
+  color: var(--title-hero-color);
+  background-color: var(--accent-color);
 }
 
 .button-all {
@@ -412,8 +486,8 @@ body {
   left: 512px;
   top: 174px;
   border-radius: 4px;
-  color: var(--title-hero-color);
-  background-color: var(--accent-color);
+  /* color: var(--title-hero-color);
+  background-color: var(--accent-color); */
   text-align: center;
   padding: 6px 25px;
   border: 1px solid transparent;
@@ -426,8 +500,8 @@ body {
   left: 593px;
   top: 174px;
   border-radius: 4px;
-  color: var(--background-hero-color);
-  background-color: var(--backround-teem-color);
+  /* color: var(--background-hero-color);
+  background-color: var(--backround-teem-color); */
   padding: 6px 25px;
   border: 1px solid transparent;
 }
@@ -439,8 +513,8 @@ body {
   left: 726px;
   top: 174px;
   border-radius: 4px;
-  color: var(--background-hero-color);
-  background-color: var(--backround-teem-color);
+  /* color: var(--background-hero-color);
+  background-color: var(--backround-teem-color); */
   padding: 6px 25px;
   border: 1px solid transparent;
 }
@@ -452,8 +526,8 @@ body {
   left: 846px;
   top: 174px;
   border-radius: 4px;
-  color: var(--background-hero-color);
-  background-color: var(--backround-teem-color);
+  /* color: var(--background-hero-color);
+  background-color: var(--backround-teem-color); */
   padding: 6px 25px;
   border: 1px solid transparent;
 }
@@ -465,8 +539,8 @@ body {
   left: 957px;
   top: 174px;
   border-radius: 4px;
-  color: var(--background-hero-color);
-  background-color: var(--backround-teem-color);
+  /* color: var(--background-hero-color);
+  background-color: var(--backround-teem-color); */
   padding: 6px 25px;
   border: 1px solid transparent;
 }
@@ -530,6 +604,25 @@ body {
   text-align: left;
 }
 
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  font-family: raleway;
+  text-decoration: none;
+  display: block;
+  margin-right: 1240px;
+  padding-bottom: 25px;
+  letter-spacing: 0.03em;
+}
+
+.none-logo {
+  padding: 0;
+  margin-bottom: 20px;
+  margin-right: 1240px;
+}
+
 .link-footer {
   font-weight: 400;
   font-size: 14px;
@@ -548,4 +641,9 @@ body {
 
 .remove-italics {
   font-style: normal;
+}
+
+.aboud-adress {
+  width: 231px;
+  height: 81px;
 }

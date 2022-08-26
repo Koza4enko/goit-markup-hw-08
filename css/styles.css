@@ -66,6 +66,7 @@ html {
   padding-top: 24px;
   padding-bottom: 25px;
   letter-spacing: 0.03em;
+  vertical-align: middle;
 }
 
 .logo:hover {
@@ -260,6 +261,19 @@ p {
 
 /* attention-detail */
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 .attention-detail {
   justify-content: space-between;
   display: flex;
@@ -318,8 +332,6 @@ p {
   background-image: url("../image/about-list/astronaut.svg");
 }
 
-/* section */
-
 .about-work {
   flex-wrap: nowrap;
   display: flex;
@@ -334,6 +346,8 @@ p {
 .test-work:nth-child(3) {
   margin-right: 0px;
 }
+
+/* section about-team*/
 
 .name {
   padding-top: 30px;
@@ -377,7 +391,7 @@ p {
 .about-our-team {
   flex-wrap: wrap;
   display: flex;
-  align-items: center;
+  flex-direction: row;
   padding-bottom: 94px;
 }
 
@@ -632,18 +646,14 @@ p {
 }
 
 .work-office {
-  font-style: normal;
   color: var(--title-hero-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 .remove-italics {
   font-style: normal;
-}
-
-.aboud-adress {
-  width: 231px;
-  height: 81px;
 }

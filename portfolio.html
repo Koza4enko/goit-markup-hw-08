@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -19,21 +19,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <div class="wrapper">
-      <header class="hader-navigation">
+      <header class="header-navigation">
         <div class="container-nav all">
           <div class="father-all">
             <nav>
               <a href="" class="logo"> <span class="web">Web</span>Studio </a>
               <ul class="site-nav list">
                 <li class="sate-nav-item">
-                  <a href="../index.html" class="nav">Студія</a>
+                  <a href="./index.html" class="nav">Студія</a>
                 </li>
                 <li class="sate-nav-item">
-                  <a href="./portfolio.html" class="link-current">Портфоліо</a>
+                  <a class="nav" href="/portfolio.html">Портфоліо</a>
                 </li>
                 <li class="sate-nav-item">
                   <a class="nav" href="">Контакти</a>
@@ -43,13 +44,13 @@
           </div>
           <div class="father-all">
             <ul class="auth-nav list">
-              <li class="auth-nav-item">
+              <li class="auth-nav-item mail-top">
                 <a href="mailto:info@devstudio.com" class="link-current"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="auth-nav-item">
-                <a class="text nav-aut" href="tel:+380961111111"
+                <a class="link-current" href="tel:+380961111111"
                   >+38 096 111 11 11</a
                 >
               </li>
@@ -57,120 +58,148 @@
           </div>
         </div>
       </header>
-      <main class="main-navigation">
-        <div class="container">
-          <div class="font-button">
-            <button type="button" class="button-all">Усі</button>
-            <button type="button" class="button-web-link">Веб-сайти</button>
-            <button type="button" class="button-addition">Додатки</button>
-            <button type="button" class="button-styling">Дизайн</button>
-            <button type="button" class="button-marketing">Маркетинг</button>
-          </div>
-          <div>
-            <ul class="cells">
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-1.jpg"
-                  alt="notebook"
-                  width="370"
-                  height="294"
-                />
+      <main class="main-navigation section-portfolio">
+        <section class="container">
+          <h1 class="visually-hidden">Портфоліо</h1>
+          <ul class="list aboud-button">
+            <li class="font-button">
+              <button type="button" class="button-all">Усі</button>
+            </li>
+            <li class="font-button">
+              <button type="button" class="button-web-link">Веб-сайти</button>
+            </li>
+            <li class="font-button">
+              <button type="button" class="button-addition">Додатки</button>
+            </li>
+            <li class="font-button">
+              <button type="button" class="button-styling">Дизайн</button>
+            </li>
+            <li class="font-button">
+              <button type="button" class="button-marketing">Маркетинг</button>
+            </li>
+          </ul>
+
+          <ul class="cells list">
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-1.jpg"
+                alt="ноутбук"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Технокряк</h2>
                 <p class="text-navigation">Веб-сайт</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-2.jpg"
-                  alt="colors"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-2.jpg"
+                alt="кольори"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">
                   Постер New Orlean vs Golden Star
                 </h2>
                 <p class="text-navigation">Дизайн</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-3.jpg"
-                  alt="logo-fish"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-3.jpg"
+                alt="лого-риба"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Ресторан Seafood</h2>
                 <p class="text-navigation">Додаток</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-4.jpg"
-                  alt="headphones"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-4.jpg"
+                alt="навушники"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Проєкт Prime</h2>
                 <p class="text-navigation">Маркетинг</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-5.jpg"
-                  alt="boxes"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-5.jpg"
+                alt="коробки"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Проєкт Boxes</h2>
                 <p class="text-navigation">Додаток</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-6.jpg"
-                  alt="screen"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-6.jpg"
+                alt="монітор"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Inspiration has no Borders</h2>
                 <p class="text-navigation">Веб-сайт</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-7.jpg"
-                  alt="book"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-7.jpg"
+                alt="книжка"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Видання Limited Edition</h2>
                 <p class="text-navigation">Дизайн</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-8.jpg"
-                  alt="tag"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-8.jpg"
+                alt="ярлик"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Проєкт LAB</h2>
                 <p class="text-navigation">Маркетинг</p>
-              </li>
+              </div>
+            </li>
 
-              <li class="flex-element">
-                <img
-                  src="./image/images/image.portolio/3-9.jpg"
-                  alt="working"
-                  width="370"
-                  height="294"
-                />
+            <li class="flex-element">
+              <img
+                src="./image/images/image.portolio/3-9.jpg"
+                alt="робота"
+                width="370"
+                height="294"
+              />
+              <div class="flex-description">
                 <h2 class="title-navigation">Growing Business</h2>
                 <p class="text-navigation">Додаток</p>
-              </li>
-            </ul>
-          </div>
-        </div>
+              </div>
+            </li>
+          </ul>
+        </section>
       </main>
       <!-- Підвал сторінки -->
       <footer class="footer-block">
@@ -190,12 +219,16 @@
                 >
               </li>
               <li class="link-footer">
-                <a class="text link-current" href="mailto:info@devstudio.com"
+                <a
+                  class="text-footer link-current"
+                  href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="link-footer">
-                <a class="text" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="text-footer" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
           </address>

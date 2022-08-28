@@ -61,6 +61,10 @@ img {
 
 /* conteiner nav */
 
+.nav.care {
+  color: var(--accent-color);
+}
+
 .header-navigation {
   border-bottom: 1px solid #ececec;
 }
@@ -186,7 +190,7 @@ p {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-  margin-top: 118px;
+
   margin-bottom: 50px;
 }
 
@@ -249,7 +253,7 @@ p {
   line-height: 1.1;
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 0;
   letter-spacing: 0.03em;
 }
 
@@ -294,6 +298,12 @@ p {
 } */
 
 /* Чим ми займаємося */
+
+.section-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .about-work {
   flex-wrap: nowrap;
   display: flex;
@@ -312,7 +322,7 @@ p {
 /* section about-team*/
 
 .for-padding {
-  padding-top: 30px;
+  padding: 30px;
 }
 
 .name {
@@ -342,13 +352,15 @@ p {
   /* margin-bottom: 30px; */
 }
 
-.our-team {
+/* .our-team {
   padding-top: 94px;
-}
+  padding-bottom: 94px;
+} */
 
 .about-team {
   background-color: var(--backround-teem-color);
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .about-our-team {
@@ -359,10 +371,7 @@ p {
 
 .test-team {
   width: 270px;
-  height: 368px;
-  left: 515px;
   margin-right: 30px;
-
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -383,10 +392,15 @@ p {
   color: var(--title-hero-color);
   background-color: #2196f3;
   min-width: 216px;
-
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: inline-block;
   cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .text-button {
@@ -437,31 +451,36 @@ p {
   margin-right: 0px;
 }
 
-.font-button > .button-all:hover {
+.button-all:hover,
+.button-all:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.font-button > .button-web-link:hover {
+.button-web-link:hover,
+.button-web-link:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.font-button > .button-addition:hover {
+.button-addition:hover,
+.button-addition:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.font-button > .button-styling:hover {
+.button-styling:hover,
+.button-styling:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.font-button > .button-marketing:hover {
+.button-marketing:hover,
+.button-marketing:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -536,8 +555,6 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .flex-description {

@@ -626,6 +626,31 @@
             </li>
           </ul>
         </div>
+        <div class="subscrition">
+          <form class="subscrition-form" name="subscrition-form">
+            <strong class="subscrition-form-title">
+              Підпишіться на розсилку
+            </strong>
+
+            <div class="subscrition-form-group" role="group">
+              <label class="subscrition-field">
+                <input
+                  class="subscrition-form-imput"
+                  type="email"
+                  name=""
+                  placeholder=" "
+                />
+                <span class="subscrition-mail">E-mail</span>
+              </label>
+              <button class="subscrition-btn" type="submit">
+                Підписатися
+                <svg class="subscrition-icon" width="24" height="24">
+                  <use href="./image/sprite.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal window -->
@@ -636,6 +661,71 @@
             <use href="./image/sprite.svg#Vector"></use>
           </svg>
         </button>
+        <form class="register-form" name="register-form">
+          <strong class="register-form-title">
+            Залиште свої дані, ми вам передзвонимо
+          </strong>
+
+          <div class="register-form-group" role="group">
+            <label class="register-form-field">
+              <span class="register-text">Ім'я</span>
+              <input class="register-form-imput" type="text" name="" />
+              <svg class="register-icos" width="18" height="18">
+                <use href="./image/sprite.svg#person-black"></use>
+              </svg>
+            </label>
+            <label class="register-form-field">
+              <span class="register-text">Телефон</span>
+              <input class="register-form-imput" type="tel" name="" />
+              <svg class="register-icos" width="18" height="18">
+                <use href="./image/sprite.svg#phone-black"></use>
+              </svg>
+            </label>
+            <label class="register-form-field">
+              <span class="register-text">Пошта</span>
+              <input class="register-form-imput" type="email" name="" />
+              <svg class="register-icos" width="18" height="18">
+                <use href="./image/sprite.svg#email-black"></use>
+              </svg>
+            </label>
+
+            <label class="register-form-field">
+              <span class="register-text">Коментар</span>
+              <textarea
+                class="register-form-message"
+                name=""
+                rows="5"
+                placeholder="Введіть текст"
+              ></textarea>
+            </label>
+          </div>
+
+          <label class="register-form-agreement">
+            <input
+              class="register-form-chekcbox visually-hidden"
+              type="checkbox"
+              name=""
+              id=""
+            />
+            <svg class="register-form-icons" width="16" height="15">
+              <use
+                class="icon-checked"
+                href="./image/sprite.svg#icon-check"
+              ></use>
+              <use
+                class="icon-unchecked"
+                href="./image/sprite.svg#icon-uncheck"
+              ></use>
+            </svg>
+            <span class="register-form-desc">
+              Погоджуюся з розсилкою та приймаю
+              <a class="register-form-link" href="" target="_blank"
+                >Умови договору</a
+              >
+            </span>
+          </label>
+          <button class="register-form-btn" type="submit">Відправити</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>

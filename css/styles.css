@@ -879,6 +879,7 @@ p {
 }
 
 .join-title {
+  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -988,6 +989,16 @@ p {
 .subscrition-form-imput:focus + .subscrition-mail,
 .subscrition-form-imput:not(:placeholder-shown) + .subscrition-mail {
   transform: translate(-5px, -220%) scale(0.8);
+}
+
+.subscrition-form-imput:focus,
+.subscrition-form-imput:not(:placeholder-shown) {
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscrition-btn {

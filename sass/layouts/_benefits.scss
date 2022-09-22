@@ -1,0 +1,45 @@
+// Block 11
+
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.benefits-about {
+  justify-content: space-between;
+  display: flex;
+  gap: 30px;
+}
+
+.benefits__blok {
+  width: 270px;
+}
+
+.benefits-icons {
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--backround-teem-color);
+  margin-bottom: 30px;
+}
+
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
+  letter-spacing: 0.03em;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-abut-list-color);
+  letter-spacing: 0.03em;
+}

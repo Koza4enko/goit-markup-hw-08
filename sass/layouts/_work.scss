@@ -1,0 +1,47 @@
+// Block 12
+
+.work {
+  padding-bottom: 94px;
+}
+
+.work-container__about {
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.work-container__card {
+  width: 370px;
+  margin-right: 30px;
+
+  &:nth-child(3) {
+    margin-right: 0px;
+  }
+}
+
+.work-thumb {
+  position: relative;
+}
+
+.work-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 70px;
+
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work-overlay__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-hero-color);
+}

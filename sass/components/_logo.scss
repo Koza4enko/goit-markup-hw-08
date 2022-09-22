@@ -1,0 +1,38 @@
+// Block 7
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  font-family: raleway;
+  text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  vertical-align: middle;
+}
+
+.logo:hover {
+  color: var(--title-text-color);
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: var(--title-hero-color);
+}
+
+// Footer
+.logo-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+  font-family: raleway;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 25px;
+}

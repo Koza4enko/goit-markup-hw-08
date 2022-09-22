@@ -1,0 +1,20 @@
+// Block 2
+
+body {
+  font-family: "roboto", sans-serif;
+  background-color: var(----title-hero-color);
+  letter-spacing: 0.03em;
+}
+
+.main-navigation {
+  flex: 1 1 auto;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+
+  margin-bottom: 50px;
+}

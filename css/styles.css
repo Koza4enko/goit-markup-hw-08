@@ -1,6 +1,6 @@
 /* Стилі для index.html */
 
-:root {
+/* :root {
   --primary-tex-color: #212121;
   --title-text-color: #212121;
   --accent-color: #2196f3;
@@ -9,21 +9,21 @@
   --background-hero-color: #2f303a;
   --backround-teem-color: #f5f4fa;
   --ikon-color: #afb1b8;
-}
+} */
 
-body {
+/* body {
   font-family: "roboto", sans-serif;
   background-color: var(----title-hero-color);
   letter-spacing: 0.03em;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -32,31 +32,31 @@ h6,
 p {
   margin-bottom: 0;
   margin-top: 0;
-}
+} */
 
-label {
+/* label {
   display: block;
-}
+} */
 
-.main-navigation {
+/* .main-navigation {
   flex: 1 1 auto;
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
-}
+} */
 
-.container {
+/* .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -67,11 +67,11 @@ label {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
 /* Логотип  */
 
-.logo {
+/* .logo {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -86,15 +86,52 @@ label {
 
 .logo:hover {
   color: var(--title-text-color);
-}
+} */
 
-/* conteiner nav */
-
-.nav.care {
+/* .web {
   color: var(--accent-color);
 }
 
-.care-border {
+.studio {
+  color: var(--title-hero-color);
+} */
+
+/* conteiner nav */
+
+/* .header-navigation {
+  border-bottom: 1px solid #ececec;
+}
+
+.hader-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all-navigation nav {
+  display: flex;
+} */
+
+/* site-nav */
+
+/* .site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .sate-nav-item {
+  margin-left: 50px;
+}
+
+.site-nav .sate-nav-item:last-child {
+  margin-right: 0;
+}
+
+.site-nav .sate-nav-item:first-child {
+  margin-left: 0;
+}
+
+.sate-nav__border {
   display: block;
   position: relative;
 }
@@ -108,60 +145,6 @@ label {
   height: 4px;
   border-radius: 2px;
   background-color: var(--accent-color);
-}
-
-.header-navigation {
-  border-bottom: 1px solid #ececec;
-}
-
-.container-nav {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* site-nav */
-
-.all {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.father-all nav {
-  display: flex;
-}
-
-.web {
-  color: var(--accent-color);
-}
-
-.studio {
-  color: var(--title-hero-color);
-}
-
-.site-nav {
-  display: flex;
-  margin-left: 93px;
-}
-
-.site-nav .sate-nav-item {
-  margin-left: 50px;
-}
-
-.nav:hover,
-.nav:focus {
-  color: #2196f3;
-}
-
-.site-nav .sate-nav-item:last-child {
-  margin-right: 0;
-}
-
-.site-nav .sate-nav-item:first-child {
-  margin-left: 0;
 }
 
 .nav {
@@ -180,8 +163,17 @@ label {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nav:hover,
+.nav:focus {
+  color: #2196f3;
+}
+
+.nav.care {
+  color: var(--accent-color);
+} */
+
 /* auth-nav */
-.auth-nav {
+/* .auth-nav {
   display: flex;
   margin-left: auto;
   height: auto;
@@ -231,22 +223,22 @@ label {
 
 .contacts-icon {
   fill: currentcolor;
-}
+} */
 
 /* section */
 
-.section-title {
+/* .section-title {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
 
   margin-bottom: 50px;
-}
+} */
 
 /* hero */
 
-.hero {
+/* .hero {
   background-color: var(--background-hero-color);
   text-align: center;
   padding-top: 200px;
@@ -277,11 +269,11 @@ label {
   margin-left: auto;
   margin-right: auto;
   font-size: 44px;
-}
+} */
 
 /* button-hero*/
 
-.hero-button {
+/* .hero-button {
   font-family: inherit;
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -311,11 +303,11 @@ label {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-}
+} */
 
 /* Benefits */
 
-.benefits {
+/* .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -357,16 +349,11 @@ label {
   line-height: 1.7;
   color: var(--text-abut-list-color);
   letter-spacing: 0.03em;
-}
-
-/* переваги */
-.aboud-list .title {
-  color: var(--title-text-color);
-}
+} */
 
 /* Чим ми займаємося */
 
-.work {
+/* .work {
   padding-bottom: 94px;
 }
 
@@ -410,11 +397,11 @@ label {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-hero-color);
-}
+} */
 
 /* section team */
 
-.team {
+/* .team {
   background-color: var(--backround-teem-color);
   padding-bottom: 94px;
   padding-top: 94px;
@@ -459,11 +446,11 @@ label {
   text-decoration: none;
   text-align: center;
   margin-bottom: 16px;
-}
+} */
 
 /* socials */
 
-.employee-socials {
+/* .employee-socials {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -498,11 +485,11 @@ label {
 .employee-link:hover .employee-link__icon,
 .employee-link:focus .employee-link__icon {
   fill: var(--title-hero-color);
-}
+} */
 
 /* Regular customers */
 
-.customers {
+/* .customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -544,11 +531,11 @@ label {
 .clients-link:hover .clients-link__icon,
 .clients-link:focus .clients-link__icon {
   fill: var(--accent-color);
-}
+} */
 
 /* стилі для portolio.html */
 
-.portfolio {
+/* .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -559,10 +546,10 @@ label {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 /* button-portolio */
 
-.portfolio-button {
+/* .portfolio-button {
   justify-content: center;
   flex-wrap: nowrap;
   display: flex;
@@ -607,11 +594,11 @@ label {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /* flex */
 
-.cells {
+/* .cells {
   flex-wrap: wrap;
   display: flex;
   margin-right: -30px;
@@ -680,11 +667,11 @@ label {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-}
+} */
 
 /* navigation */
 
-.title-navigation {
+/* .title-navigation {
   color: var(--title-text-color);
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -699,11 +686,11 @@ label {
   letter-spacing: 0.03em;
   line-height: 1.9;
   margin-top: 4px;
-}
+} */
 
 /* footer */
 
-.footer-block {
+/* .footer-block {
   background-color: var(--background-hero-color);
   margin-left: auto;
   margin-right: auto;
@@ -725,9 +712,9 @@ label {
 
 .for-nav {
   width: 231px;
-}
+} */
 
-.logo-footer {
+/* .logo-footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -736,13 +723,13 @@ label {
   text-decoration: none;
   display: block;
   margin-bottom: 25px;
-}
+} */
 
-.remove-italics {
+/* .remove-italics {
   font-style: normal;
-}
+} */
 
-.work-office {
+/* .work-office {
   color: var(--title-hero-color);
   font-weight: 400;
   font-size: 14px;
@@ -773,11 +760,11 @@ label {
 .link-footer .text-footer:hover,
 .link-footer .text-footer:focus {
   color: #2196f3;
-}
+} */
 
 /* Socials join  */
 
-.socials-join {
+/* .socials-join {
   margin-left: 70px;
   align-content: center;
 }
@@ -819,11 +806,11 @@ label {
 
 .footer-icon {
   fill: var(--backround-teem-color);
-}
+} */
 
 /* Subscrition */
 
-.subscrition {
+/* .subscrition {
   margin-left: 93px;
   align-content: center;
   display: flex;
@@ -902,11 +889,11 @@ label {
 
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* Footer-button */
 
-.subscrition-btn {
+/* .subscrition-btn {
   min-width: 200px;
   height: 50px;
   letter-spacing: 0.06em;
@@ -940,11 +927,11 @@ label {
 .subscrition-icon {
   margin-left: 10px;
   fill: var(--title-hero-color);
-}
+} */
 
 /* Modal window */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -1163,11 +1150,11 @@ label {
 
 .register-form-link {
   color: var(--accent-color);
-}
+} */
 
 /* register-form-btn */
 
-.register-form-btn {
+/* .register-form-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1200,4 +1187,4 @@ label {
 .register-form-btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */

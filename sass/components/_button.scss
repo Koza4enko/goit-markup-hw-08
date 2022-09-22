@@ -1,0 +1,118 @@
+// Block 6
+//  Hero
+.hero-button {
+  font-family: inherit;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: var(--title-hero-color);
+  background-color: #2196f3;
+  min-width: 216px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.hero-button__form {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+//button-portolio
+.portfolio-button {
+  justify-content: center;
+  flex-wrap: nowrap;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.portfolio-button__font {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border: 1px solid transparent;
+  color: var(--title-hero-color);
+  cursor: pointer;
+  margin-right: 8px;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:nth-last-child(1) {
+    margin-right: 0px;
+  }
+}
+
+.portfolio-button__pressing {
+  cursor: pointer;
+  min-width: 73px;
+  border-radius: 4px;
+  background-color: var(--backround-teem-color);
+  text-align: center;
+  padding: 6px 22px;
+  border: 1px solid transparent;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--title-hero-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+// Footer-button
+.subscrition-btn {
+  min-width: 200px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-left: 12px;
+  color: var(--title-hero-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.subscrition-icon {
+  margin-left: 10px;
+  fill: var(--title-hero-color);
+}

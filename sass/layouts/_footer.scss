@@ -1,0 +1,58 @@
+// Block 16
+
+.footer-block {
+  background-color: var(--background-hero-color);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: baseline;
+}
+
+.for-nav {
+  width: 231px;
+}
+
+.work-office {
+  color: var(--title-hero-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+
+  & .text-footer:hover,
+  & .text-footer:focus {
+    color: #2196f3;
+  }
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  text-align: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

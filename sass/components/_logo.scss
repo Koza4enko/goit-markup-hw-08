@@ -1,6 +1,6 @@
 // Block 7
 
-.logo {
+.logo-header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -11,10 +11,10 @@
   padding-top: 24px;
   padding-bottom: 25px;
   vertical-align: middle;
-}
 
-.logo:hover {
-  color: var(--title-text-color);
+  &:hover {
+    color: var(--title-text-color);
+  }
 }
 
 .web {

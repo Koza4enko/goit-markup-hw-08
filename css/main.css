@@ -60,12 +60,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.main-navigation {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-}
-
 .section-title {
   color: var(--title-text-color);
   font-size: 36px;
@@ -74,12 +68,74 @@ body {
   margin-bottom: 50px;
 }
 
-.container {
+.hader-container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.hero-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.benefits-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.work-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.team-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.customers-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.portfolio-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .header-navigation {
@@ -98,7 +154,7 @@ body {
           justify-content: space-between;
 }
 
-.all-navigation nav {
+.all-navigation .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,65 +215,6 @@ body {
 
 .nav.care {
   color: var(--accent-color);
-}
-
-.auth-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  height: auto;
-}
-
-.auth-nav .auth-nav-item {
-  margin-left: 50px;
-}
-.auth-nav .auth-nav-item .auth-nav-item:last-child {
-  margin-right: 0;
-}
-.auth-nav .auth-nav-item .auth-nav-item:first-child {
-  margin-left: 0;
-}
-
-.link-current {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 10px;
-}
-
-.auth-nav .link-current {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.15;
-  letter-spacing: 0.02em;
-  color: var(--text-abut-list-color);
-  text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.auth-nav .link-current:hover,
-.auth-nav .link-current:focus {
-  color: #2196f3;
-}
-
-.link-current:hover .contacts-icon,
-.link-current:focus .contacts-icon {
-  fill: #2196f3;
-}
-
-.contacts-icon {
-  fill: currentcolor;
 }
 
 .hero {
@@ -388,11 +385,11 @@ body {
   margin-right: 0px;
 }
 
-.employee {
+.team-card {
   padding: 30px;
 }
 
-.employee-name {
+.team-name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -400,7 +397,7 @@ body {
   text-align: center;
 }
 
-.employee-text {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -480,56 +477,8 @@ body {
   display: flex;
 }
 
-.container-footer {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-}
-
 .for-nav {
   width: 231px;
-}
-
-.work-office {
-  color: var(--title-hero-color);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  text-decoration: none;
-}
-
-.link-footer {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
-}
-.link-footer .text-footer:hover, .link-footer .text-footer:focus {
-  color: #2196f3;
-}
-
-.text-footer {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  text-align: center;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop {
@@ -759,6 +708,10 @@ body {
   border-radius: 2px;
 }
 
+.register-form-chekcbox:focus + .register-form-icons .icon-unchecked {
+  opacity: 0;
+}
+
 .icon-checked {
   opacity: 0;
   -webkit-transition-property: opacity;
@@ -836,14 +789,6 @@ body {
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.portfolio-container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .cells {
@@ -940,7 +885,7 @@ body {
   margin-top: 4px;
 }
 
-.hero-button {
+.button-hero {
   font-family: inherit;
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -959,13 +904,13 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hero-button:hover, .hero-button:focus {
+.button-hero:hover, .button-hero:focus {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.hero-button__form {
+.button-hero__form {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -976,7 +921,7 @@ body {
   letter-spacing: 0.06em;
 }
 
-.portfolio-button {
+.button-portfolio {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -988,7 +933,7 @@ body {
   margin-bottom: 50px;
 }
 
-.portfolio-button__font {
+.button-portfolio__font {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1004,11 +949,11 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-button__font:nth-last-child(1) {
+.button-portfolio__font:nth-last-child(1) {
   margin-right: 0px;
 }
 
-.portfolio-button__pressing {
+.button-portfolio__pressing {
   cursor: pointer;
   min-width: 73px;
   border-radius: 4px;
@@ -1023,14 +968,14 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-button__pressing:hover, .portfolio-button__pressing:focus {
+.button-portfolio__pressing:hover, .button-portfolio__pressing:focus {
   color: var(--title-hero-color);
   background-color: var(--accent-color);
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subscrition-btn {
+.btn-subscrition {
   min-width: 200px;
   height: 50px;
   letter-spacing: 0.06em;
@@ -1061,7 +1006,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.subscrition-btn:hover, .subscrition-btn:focus {
+.btn-subscrition:hover, .btn-subscrition:focus {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1173,7 +1118,7 @@ body {
   background-color: var(--accent-color);
 }
 
-.footer-icon {
+.icon-footer {
   fill: var(--backround-teem-color);
 }
 
@@ -1284,7 +1229,7 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo {
+.logo-header {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -1296,8 +1241,7 @@ body {
   padding-bottom: 25px;
   vertical-align: middle;
 }
-
-.logo:hover {
+.logo-header:hover {
   color: var(--title-text-color);
 }
 
@@ -1318,4 +1262,97 @@ body {
   text-decoration: none;
   display: block;
   margin-bottom: 25px;
+}
+
+.auth-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  height: auto;
+}
+
+.auth-nav .auth-nav-item {
+  margin-left: 50px;
+}
+.auth-nav .auth-nav-item .auth-nav-item:last-child {
+  margin-right: 0;
+}
+.auth-nav .auth-nav-item .auth-nav-item:first-child {
+  margin-left: 0;
+}
+
+.link-current {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.auth-nav .link-current {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--text-abut-list-color);
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.auth-nav .link-current:hover,
+.auth-nav .link-current:focus {
+  color: #2196f3;
+}
+
+.link-current:hover .contacts-icon,
+.link-current:focus .contacts-icon {
+  fill: #2196f3;
+}
+
+.contacts-icon {
+  fill: currentcolor;
+}
+
+.work-office {
+  color: var(--title-hero-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+}
+.link-footer .text-footer:hover, .link-footer .text-footer:focus {
+  color: #2196f3;
+}
+
+.text-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */

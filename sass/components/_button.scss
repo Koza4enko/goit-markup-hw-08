@@ -1,6 +1,6 @@
 // Block 6
 //  Hero
-.hero-button {
+.button-hero {
   font-family: inherit;
   padding: 10px 32px;
   border: 1px solid transparent;
@@ -23,7 +23,7 @@
   }
 }
 
-.hero-button__form {
+.button-hero__form {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -33,14 +33,14 @@
 }
 
 //button-portolio
-.portfolio-button {
+.button-portfolio {
   justify-content: center;
   flex-wrap: nowrap;
   display: flex;
   margin-bottom: 50px;
 }
 
-.portfolio-button__font {
+.button-portfolio__font {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -59,7 +59,7 @@
   }
 }
 
-.portfolio-button__pressing {
+.button-portfolio__pressing {
   cursor: pointer;
   min-width: 73px;
   border-radius: 4px;
@@ -81,7 +81,7 @@
 }
 
 // Footer-button
-.subscrition-btn {
+.btn-subscrition {
   min-width: 200px;
   height: 50px;
   letter-spacing: 0.06em;

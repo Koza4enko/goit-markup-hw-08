@@ -194,6 +194,10 @@
   border-radius: 2px;
 }
 
+.register-form-chekcbox:focus + .register-form-icons .icon-unchecked {
+  opacity: 0;
+}
+
 .icon-checked {
   opacity: 0;
   transition-property: opacity;

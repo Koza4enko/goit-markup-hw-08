@@ -19,16 +19,17 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Hader -->
     <header class="hader-navigation">
-      <div class="container hader-nav">
+      <div class="hader-container hader-nav">
         <div class="all-navigation">
-          <nav>
-            <a href="" class="logo"> <span class="web">Web</span>Studio </a>
+          <nav class="navigation">
+            <a href="" class="logo-header">
+              <span class="web">Web</span>Studio
+            </a>
             <ul class="site-nav list">
               <li class="sate-nav-item sate-nav__border">
                 <a href="/index.html" class="nav care">Студія</a>
@@ -64,14 +65,14 @@
         </div>
       </div>
     </header>
-    <main class="main-navigation">
+    <main>
       <!-- Замовити послугу -->
       <section class="hero">
-        <div class="container hero-container">
+        <div class="hero-container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button
             type="button"
-            class="hero-button hero-button__form"
+            class="button-hero button-hero__form"
             data-modal-open
           >
             Замовити послугу
@@ -81,7 +82,7 @@
 
       <!-- Переваги -->
       <section class="benefits">
-        <div class="container benefits-container">
+        <div class="benefits-container">
           <h2 class="visually-hidden">Привілегії нашої роботи</h2>
           <ul class="benefits-about list">
             <li class="benefits__blok">
@@ -137,7 +138,7 @@
 
       <!-- Чим ми займаємося -->
       <section class="work">
-        <div class="container work-container">
+        <div class="work-container">
           <h2 class="section-title">Чим ми займаємося</h2>
           <ul class="work-container__about list">
             <li class="work-container__card">
@@ -185,7 +186,7 @@
 
       <!-- Наша команда -->
       <section class="team">
-        <div class="container team-container">
+        <div class="team-container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-about list">
             <li class="team-about__card">
@@ -195,9 +196,9 @@
                 width="270"
                 height="260"
               />
-              <div class="employee">
-                <h3 class="employee-name">Ігор Дем'яненко</h3>
-                <p class="employee-text">Product Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
                 <ul class="employee-socials list">
                   <li class="employee-socials__item">
                     <a
@@ -261,9 +262,9 @@
                 width="270"
                 height="260"
               />
-              <div class="employee">
-                <h3 class="employee-name">Ольга Рєпіна</h3>
-                <p class="employee-text">Frontend Developer</p>
+              <div class="team-card">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
                 <ul class="employee-socials list">
                   <li class="employee-socials__item">
                     <a
@@ -327,9 +328,9 @@
                 width="270"
                 height="260"
               />
-              <div class="employee">
-                <h3 class="employee-name">Микола Тарасов</h3>
-                <p class="employee-text">Marketing</p>
+              <div class="team-card">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
                 <ul class="employee-socials list">
                   <li class="employee-socials__item">
                     <a
@@ -393,9 +394,9 @@
                 width="270"
                 height="260"
               />
-              <div class="employee">
-                <h3 class="employee-name">Михайло Єрмаков</h3>
-                <p class="employee-text">UI Designer</p>
+              <div class="team-card">
+                <h3 class="team-name">Михайло Єрмаков</h3>
+                <p class="team-text">UI Designer</p>
                 <ul class="employee-socials list">
                   <li class="employee-socials__item">
                     <a
@@ -458,7 +459,7 @@
 
       <!-- Regular customers -->
       <section class="customers">
-        <div class="container customers-container">
+        <div class="customers-container">
           <h2 class="section-title">Постійні клієнти</h2>
           <ul class="customers-clients list">
             <li class="clients">
@@ -588,7 +589,7 @@
                 rel="noopenet noreferrer"
                 aria-label="Instagram"
               >
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="./image/sprite.svg#instagram"></use>
                 </svg>
               </a>
@@ -601,7 +602,7 @@
                 rel="noopenet noreferrer"
                 aria-label="Twitter"
               >
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="./image/sprite.svg#twitter"></use>
                 </svg>
               </a>
@@ -614,7 +615,7 @@
                 rel="noopenet noreferrer"
                 aria-label="Facebook"
               >
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="./image/sprite.svg#facebook"></use>
                 </svg>
               </a>
@@ -627,7 +628,7 @@
                 rel="noopenet noreferrer"
                 aria-label="Linkedin"
               >
-                <svg class="footer-icon" width="20" height="20">
+                <svg class="icon-footer" width="20" height="20">
                   <use href="./image/sprite.svg#linkedin"></use>
                 </svg>
               </a>
@@ -650,7 +651,7 @@
                 />
                 <span class="subscrition-mail">E-mail</span>
               </label>
-              <button class="subscrition-btn" type="submit">
+              <button class="btn-subscrition" type="submit">
                 Підписатися
                 <svg class="subscrition-icon" width="24" height="24">
                   <use href="./image/sprite.svg#icon-send"></use>

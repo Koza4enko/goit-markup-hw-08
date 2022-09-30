@@ -1,5 +1,7 @@
 // Block 14
 
+// social team
+
 .employee-socials {
   display: flex;
   justify-content: center;
@@ -35,4 +37,52 @@
   .employee-link:focus & {
     fill: var(--title-hero-color);
   }
+}
+
+// social footer
+
+// Block 17
+
+.socials-join {
+  margin-left: 70px;
+  align-content: center;
+}
+
+.join-title {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-hero-color);
+  margin-bottom: 20px;
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.socials-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.icon-footer {
+  fill: var(--backround-teem-color);
 }

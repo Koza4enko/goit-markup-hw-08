@@ -10,7 +10,6 @@
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
-  vertical-align: middle;
 
   &:hover {
     color: var(--title-text-color);
@@ -35,4 +34,14 @@
   text-decoration: none;
   display: block;
   margin-bottom: 25px;
+
+  @media screen and (min-width: $tablet) {
+    justify-content: left;
+    text-align: left;
+  }
+
+  @media screen and (min-width: $desktop) {
+    justify-content: left;
+    text-align: left;
+  }
 }

@@ -20,8 +20,8 @@
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
   position: absolute;
   padding: 40px;
   display: block;
@@ -35,6 +35,11 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+
+  @media screen and (min-width: $desktop) {
+    width: 528px;
+    height: 581px;
+  }
 }
 
 .modal-btn {
@@ -73,7 +78,7 @@
 
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -214,11 +219,16 @@
 
 .register-form-desc {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: 12px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   color: var(--text-abut-list-color);
   user-select: none;
+
+  @media screen and (min-width: $desktop) {
+    line-height: 1.7;
+    font-size: 14px;
+  }
 }
 
 .register-form-link {

@@ -1,11 +1,25 @@
 // Block 18
 
 .subscrition {
-  margin-left: 93px;
-  align-content: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 60px;
+  display: block;
+
+  @media screen and (min-width: $tablet) {
+    width: 738px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: baseline;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 93px;
+    margin-top: 0px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .subscrition-form-title {
@@ -15,19 +29,35 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-hero-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: $desktop) {
+    justify-content: flex-start;
+  }
 }
 
 .subscrition-form-group {
-  display: flex;
   margin-top: 20px;
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
 
 .subscrition-field {
   position: relative;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0px;
+  }
 }
 
 .subscrition-form-imput {
-  width: 358px;
+  margin: 0 auto;
+  width: 100%;
   height: 50px;
   padding-left: 16px;
   padding-right: 16px;
@@ -41,6 +71,14 @@
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: $tablet) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 358px;
+  }
 
   &:focus,
   &:hover {

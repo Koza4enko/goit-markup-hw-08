@@ -8,8 +8,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+  }
 }
 
 .all-navigation .navigation {
   display: flex;
+}
+
+.all-navigation {
+  @media screen and (min-width: $tablet) {
+    display: contents;
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
 }

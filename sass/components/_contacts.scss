@@ -1,13 +1,20 @@
 // contacts header
 .auth-nav {
-  display: flex;
+  display: none;
   margin-left: auto;
   height: auto;
+
+  @media screen and (min-width: $tablet) {
+    display: block;
+    margin-left: 96px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
 
 .auth-nav .auth-nav-item {
-  margin-left: 50px;
-
   & .auth-nav-item:last-child {
     margin-right: 0;
   }
@@ -15,6 +22,15 @@
   & .auth-nav-item:first-child {
     margin-left: 0;
   }
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+}
+
+.mail-hader {
+  margin-bottom: 10px;
 }
 
 .link-current {
@@ -30,11 +46,14 @@
   letter-spacing: 0.02em;
   color: var(--text-abut-list-color);
   text-decoration: none;
-  padding-top: 32px;
-  padding-bottom: 32px;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  @media screen and (min-width: $desktop) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
 }
 
 .auth-nav .link-current:hover,
@@ -52,11 +71,12 @@
 }
 
 // contacts footer
+
 .work-office {
   color: var(--title-hero-color);
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   text-decoration: none;
 }
 
@@ -66,10 +86,26 @@
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
+  display: block;
 
   & .text-footer:hover,
   & .text-footer:focus {
     color: #2196f3;
+  }
+
+  @media screen and (min-width: $mobile) {
+    text-align: center;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: $tablet) {
+    justify-content: left;
+    text-align: left;
+  }
+
+  @media screen and (min-width: $desktop) {
+    justify-content: left;
+    text-align: left;
   }
 }
 

@@ -7,9 +7,20 @@
   text-align: left;
   padding-top: 60px;
   padding-bottom: 60px;
-  display: flex;
 }
 
 .for-nav {
-  width: 231px;
+  margin-bottom: 60px;
+  text-align: center;
+
+  justify-content: center;
+
+  @media screen and (min-width: $tablet) {
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    margin-bottom: 0px;
+    width: 261px;
+  }
 }

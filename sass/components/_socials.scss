@@ -45,18 +45,21 @@
 
 .socials-join {
   align-content: center;
+  margin-bottom: 60px;
+  margin-top: 60px;
 
   @media screen and (min-width: $tablet) {
-    margin-left: 70px;
+    margin-bottom: 0;
+    margin-top: 0;
   }
 
   @media screen and (min-width: $desktop) {
+    margin-bottom: 0;
     margin-left: 70px;
   }
 }
 
 .join-title {
-  display: block;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
@@ -68,10 +71,6 @@
   text-align: center;
   display: flex;
   justify-content: center;
-
-  @media screen and (min-width: $tablet) {
-    justify-content: flex-start;
-  }
 
   @media screen and (min-width: $desktop) {
     justify-content: flex-start;

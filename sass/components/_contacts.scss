@@ -7,6 +7,8 @@
   @media screen and (min-width: $tablet) {
     display: block;
     margin-left: 96px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -78,6 +80,13 @@
   font-size: 14px;
   line-height: 1.7;
   text-decoration: none;
+  text-align: center;
+  justify-content: center;
+
+  @media screen and (min-width: $desktop) {
+    justify-content: left;
+    text-align: left;
+  }
 }
 
 .link-footer {
@@ -87,20 +96,11 @@
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
   display: block;
-
+  text-align: center;
+  justify-content: center;
   & .text-footer:hover,
   & .text-footer:focus {
     color: #2196f3;
-  }
-
-  @media screen and (min-width: $mobile) {
-    text-align: center;
-    justify-content: center;
-  }
-
-  @media screen and (min-width: $tablet) {
-    justify-content: left;
-    text-align: left;
   }
 
   @media screen and (min-width: $desktop) {
@@ -115,7 +115,7 @@
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  text-align: center;
+
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

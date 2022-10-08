@@ -10,9 +10,7 @@
 }
 
 .for-nav {
-  margin-bottom: 60px;
   text-align: center;
-
   justify-content: center;
 
   @media screen and (min-width: $tablet) {
@@ -21,6 +19,24 @@
 
   @media screen and (min-width: $desktop) {
     margin-bottom: 0px;
-    width: 261px;
+    justify-content: unset;
+    text-align: unset;
+    width: 231px;
+  }
+}
+
+.footer-tablet {
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    justify-content: unset;
+    flex-wrap: nowrap;
+    margin-bottom: 0;
   }
 }

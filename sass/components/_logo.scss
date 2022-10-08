@@ -35,11 +35,6 @@
   display: block;
   margin-bottom: 25px;
 
-  @media screen and (min-width: $tablet) {
-    justify-content: left;
-    text-align: left;
-  }
-
   @media screen and (min-width: $desktop) {
     justify-content: left;
     text-align: left;

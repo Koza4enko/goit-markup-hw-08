@@ -58,17 +58,14 @@
 .flex-link {
   text-decoration: none;
   display: block;
-  // max-width: 450px;
 
   @media screen and (min-width: $tablet) {
-    // max-width: 354px;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   @media screen and (min-width: $desktop) {
-    // width: 370px;
     display: flex;
     flex-direction: column;
   }

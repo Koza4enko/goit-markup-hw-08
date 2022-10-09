@@ -7,8 +7,6 @@
   @media screen and (min-width: $tablet) {
     display: block;
     margin-left: auto;
-    padding-top: 19px;
-    padding-bottom: 19px;
   }
 
   @media screen and (min-width: $desktop) {
@@ -40,6 +38,19 @@
   display: flex;
   align-items: center;
   gap: 10px;
+
+  @media screen and (min-width: $tablet) {
+    padding-top: 19px;
+    padding-bottom: 19px;
+
+    &:first-child {
+      padding-bottom: 0;
+    }
+
+    &:last-child {
+      padding-top: 0;
+    }
+  }
 }
 
 .auth-nav .link-current {

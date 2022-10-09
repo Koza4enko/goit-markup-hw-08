@@ -12,6 +12,7 @@
 .for-nav {
   text-align: center;
   justify-content: center;
+  margin-bottom: 60px;
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 0px;
@@ -30,7 +31,7 @@
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 60px;
   }
 

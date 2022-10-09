@@ -8,8 +8,6 @@
   }
 
   @media screen and (min-width: $desktop) {
-    display: flex;
-    flex-wrap: wrap;
     margin-left: 93px;
     margin-top: 0px;
   }
@@ -39,7 +37,18 @@
 }
 
 .subscrition-form-group {
+  width: 100%;
+
+  @media screen and (min-width: $mobile) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    width: 450px;
+  }
+
   @media screen and (min-width: $desktop) {
+    width: 100%;
     display: flex;
   }
 }
